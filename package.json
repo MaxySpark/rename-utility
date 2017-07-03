@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/MaxySpark/rename-utility/issues"
   },
-  "homepage": "https://github.com/MaxySpark/rename-utility#readme"
+  "homepage": "https://github.com/MaxySpark/rename-utility#readme",
+  "dependencies": {
+    "yargs": "^8.0.2"
+  }
 }
