@@ -1,0 +1,26 @@
+{
+  "name": "rename-utility",
+  "version": "1.0.0",
+  "description": "\"A Tool For Renaming Multiple Files At Once\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxySpark/rename-utility.git"
+  },
+  "keywords": [
+    "File",
+    "NodeJS",
+    "utility",
+    "Tool",
+    "Rename"
+  ],
+  "author": "MaxySpark ( hello@maxyspark.com )",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaxySpark/rename-utility/issues"
+  },
+  "homepage": "https://github.com/MaxySpark/rename-utility#readme"
+}
