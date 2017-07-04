@@ -58,3 +58,4 @@ typings/
 .env
 
 *.tt
+test.js
