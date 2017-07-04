@@ -8,6 +8,6 @@ Rename Multiple File Using NodeJS
 #### `$ remall -s <search word> -r <rename word>`
 
 ### Options
-#### `--search, -s` for `Search Word` (String Batter Wrap in `""`)
-#### `--rename, -r` for `Rename Word` (String Batter Wrap in `""`)
+#### `--search, -s` for `Search Word` (String Better Wrap in `""`)
+#### `--rename, -r` for `Rename Word` (String Better Wrap in `""`)
 #### `--help, -h` for `Show Help`
