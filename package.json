@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/MaxySpark/rename-utility#readme",
   "dependencies": {
+    "colors": "^1.1.2",
     "yargs": "^8.0.2"
   },
   "bin": {

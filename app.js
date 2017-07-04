@@ -3,6 +3,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const colors = require('colors');
 const argv = require('yargs').option({
     search : {
         demand : true,
@@ -35,7 +36,7 @@ function main(oldWord,newWord) {
 
     var searchRegex = new RegExp(oldWord, "i");
     
-    console.log("Searching For " + oldWord + " And Rename to " + newWord +"\n");
+    console.log("Searching For " + oldWord.red.bold + " And Rename to " + newWord.blue.bold +"\n");
 
     readFileName().then(function(list){
 
@@ -67,7 +68,7 @@ function searchAndRename(searchRegex,newWord,list) {
                 var newName = item.replace(searchRegex,newWord);
 
                 fs.rename(path.join(dir,item),path.join(dir,newName),function() {
-                    console.log("Matched File Name : " + item + " --> Renamed to " + newName);
+                    console.log("Matched File Name : " + item.red.bold + " --> Renamed to " + newName.blue.bold);
                 });
             }
             resolve();
