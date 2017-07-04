@@ -17,7 +17,7 @@
     "Tool",
     "Rename"
   ],
-  "author": "MaxySpark ( hello@maxyspark.com )",
+  "author": "MaxySpark <hello@maxyspark.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MaxySpark/rename-utility/issues"
