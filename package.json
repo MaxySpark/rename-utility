@@ -1,6 +1,6 @@
 {
   "name": "rename-utility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"A Tool For Renaming Multiple Files At Once\"",
   "main": "app.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "dependencies": {
     "yargs": "^8.0.2"
   },
-  "bin" :{
-    "remall" : "./app.js"
+  "bin": {
+    "remall": "./app.js"
   }
 }
