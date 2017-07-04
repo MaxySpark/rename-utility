@@ -8,9 +8,39 @@ var dir = process.cwd();
 
 var fileList = [];
 
-fs.readdir(dir,(err,files)=>{
-    files.forEach((file)=>{
-        fileList.push(file);
+main();
+
+//--functions--//    
+
+function main() {
+    readFileName().then(function(list){
+        console.log(list);
+        return searchAndRename("test","bla",list);
+    }).then(function(){
+        console.log("done");
     });
-    console.log(fileList);
-});
+    
+}
+
+function readFileName() {
+    return new Promise(function(resolve,reject) {
+        fs.readdir(dir,(err,files)=>{
+            files.forEach((file)=>{
+                fileList.push(file);
+            });
+            //finished pushing names
+            resolve(fileList);            
+        });
+    });
+}
+
+function searchAndRename(oldWord,newWord,list) {
+    return new Promise(function(resolve,reject){
+        list.forEach(function(item){
+            if(item.toString().search(oldWord) > 0) {
+                console.log(item);
+            }
+            resolve();
+        });
+    });
+}
