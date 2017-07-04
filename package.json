@@ -27,6 +27,6 @@
     "yargs": "^8.0.2"
   },
   "bin" :{
-    "node-ren" : "./app.js"
+    "remall" : "./app.js"
   }
 }
