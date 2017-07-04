@@ -25,5 +25,8 @@
   "homepage": "https://github.com/MaxySpark/rename-utility#readme",
   "dependencies": {
     "yargs": "^8.0.2"
+  },
+  "bin" :{
+    "node-ren" : "./app.js"
   }
 }
