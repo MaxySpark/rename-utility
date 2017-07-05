@@ -1,6 +1,6 @@
 {
   "name": "rename-utility",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "\"A Tool For Renaming Multiple Files At Once\"",
   "main": "app.js",
   "scripts": {
