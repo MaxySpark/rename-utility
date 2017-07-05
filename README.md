@@ -3,9 +3,11 @@ Rename Multiple File Using NodeJS
 
 ### Uses
 #### Install `rename-utility` Globaly
-#### `$ npm install -g rename-utility`
+```
+    $ npm install -g rename-utility
+```
 #### Open Terminal and Go To The Desired Directory Then Run The Below Command
-#### `$ remall -s <search word> -r <replace word>`
+#### `$ remall -s <search word> --rp <replace word>`
 
 ### Options
 #### `--search, -s` for `Search Word` (String Better Wrap in `""`)
