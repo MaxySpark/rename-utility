@@ -16,3 +16,4 @@ $ remall -s <search word> --rp <replace word>
 #### `--search, -s` for `Search Word` (String Better Wrap in `""`)
 #### `--rename, --rp` for `Replace Word` (String Better Wrap in `""`)
 #### `--help, -h` for `Show Help`
+![Option](https://raw.githubusercontent.com/MaxySpark/rename-utility/img/img/remall-2.png "Option")
