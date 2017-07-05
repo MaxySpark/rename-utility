@@ -28,6 +28,6 @@
     "yargs": "^8.0.2"
   },
   "bin": {
-    "remall": "./app.js"
+    "remall": "./bin/app.js"
   }
 }
