@@ -17,9 +17,15 @@ const argv = require('yargs').option({
         description: "Replace Word",
         type: 'string'
     },
-    append : {
+    appendlast : {
         // demand : true,
         alias:['al'],
+        description: "Append Word",
+        type: 'string'
+    },
+     appendfirst : {
+        // demand : true,
+        alias:['af'],
         description: "Append Word",
         type: 'string'
     }
