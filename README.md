@@ -10,6 +10,8 @@ $ npm install -g rename-utility
 ```
 $ remall -s <search word> --rp <replace word>
 ```
+![Search and Replace File Name](https://raw.githubusercontent.com/MaxySpark/rename-utility/img/img/remall-1.png "Search and Replace File Name")
+
 ### Options
 #### `--search, -s` for `Search Word` (String Better Wrap in `""`)
 #### `--rename, --rp` for `Replace Word` (String Better Wrap in `""`)
